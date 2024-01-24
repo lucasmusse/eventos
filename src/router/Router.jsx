@@ -8,10 +8,10 @@ export default function Router(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route index element={<Index/>}/>
-                <Route path="/galerycarousel" element={<GaleryCarousel/>}/>
-                <Route path="/servicos" element={<PaginaServicos/>}/>
-                <Route path="/servicos/:id" element={<PaginaServicos/>}/>
+                <Route path="/eventos" element={<Index/>}/>
+                <Route path="/eventos/galerycarousel" element={<GaleryCarousel/>}/>
+                <Route path="/eventos/servicos" element={<PaginaServicos/>}/>
+                <Route path="/eventos/servicos/:id" element={<PaginaServicos/>}/>
                              
                 
             </Routes>
