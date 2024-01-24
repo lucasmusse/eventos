@@ -11,7 +11,7 @@ export default function Router(){
                 <Route path="/eventos" element={<Index/>}/>
                 <Route path="/eventos/galerycarousel" element={<GaleryCarousel/>}/>
                 <Route path="/eventos/servicos" element={<PaginaServicos/>}/>
-                <Route path="/eventos/servicos/:id" element={<PaginaServicos/>}/>
+                <Route path="/servicos/:id" element={<PaginaServicos/>}/>
                              
                 
             </Routes>
